@@ -1,5 +1,6 @@
 class Person:
     "This is a person class"
+    "This is where evrything happens"
     age = 10
 
     def greet(self):
@@ -14,3 +15,4 @@ print(Person.greet)
 
 # Output: "This is a person class"
 print(Person.__doc__)
+print(harry.greet)
