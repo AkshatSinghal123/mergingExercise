@@ -15,4 +15,4 @@ print(Person.greet)
 
 # Output: "This is a person class"
 print(Person.__doc__)
-print(harry.greet)
+print(peter.greet)
