@@ -1,18 +1,23 @@
-class Person:
-    "This is a person class"
-    "This is where evrything happens"
-    age = 10
-
-    def greet(self):
-        print('Hello')
-
-
-# Output: 10
-print(Person.age)
-
-# Output: <function Person.greet>
-print(Person.greet)
-
-# Output: "This is a person class"
-print(Person.__doc__)
-print(peter.greet)
+class Dog:
+       
+    # Class Variable
+    animal = 'dog'     
+       
+    # The init method or constructor
+    def __init__(self, breed):
+           
+        # Instance Variable
+        self.breed = breed            
+   
+    # Adds an instance variable 
+    def setColor(self, color):
+        self.color = color
+       
+    # Retrieves instance variable    
+    def getColor(self):    
+        return self.color   
+   
+# Driver Code
+Rodger = Dog("pug")
+Rodger.setColor("brown")
+print(Rodger.getColor())
